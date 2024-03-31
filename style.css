@@ -91,3 +91,18 @@ ul>li>a {
     width: 200px;
     height: 200px;
 }
+
+/*Hero Section Completed*/
+
+/*Three Points section starts here*/
+.points {
+    width: 75%;
+    margin: auto;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.points h2 {
+    color: #4c4b49;
+}

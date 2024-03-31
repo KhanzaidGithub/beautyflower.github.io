@@ -1,0 +1,93 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    --text-color: rgb(0, 0, 0);
+    --heading-size: 16px;
+    --text-size: 16px;
+    --box-width: 200px;
+    --box-height: 200px;
+    --btn-padding: 10px 10px;
+    --btn-radius: 20px;
+    --heading-color: #435831;
+    --text-color: #888887;
+
+}
+
+header {
+    background-image: linear-gradient(#43583148, rgba(0, 0, 0, 0)), url(./images/fourflower.jpg);
+    background-color: rgba(127, 92, 92, 0.06);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    display: flex;
+    font-size: var(--heading-size);
+    padding: 15px 0px;
+}
+
+ul>li {
+    list-style: none;
+    padding: 0px 10px;
+}
+
+ul>li>a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo>img {
+    width: 150px;
+}
+
+/*Hero Content*/
+.hero-hading {
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.hero-h1 {
+    font-size: 70px;
+    color: #252525;
+    line-height: 80px;
+
+}
+
+.hero-p {
+    font-size: var(--text-size);
+    margin-top: 5px;
+    line-height: 25px;
+}
+
+.hero-btn {
+    padding: var(--btn-padding);
+    border-radius: var(--btn-radius);
+    background-color: #47622f5d;
+    cursor: pointer;
+    margin-top: 15px;
+    border: none;
+}
+
+.remove-bg {
+    background-image: url(./images/backremove.png);
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    top: 60px;
+    left: -20px;
+    position: absolute;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}

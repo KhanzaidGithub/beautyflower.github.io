@@ -5,14 +5,17 @@
 
 :root {
     --text-color: rgb(0, 0, 0);
-    --heading-size: 16px;
-    --text-size: 16px;
-    --box-width: 200px;
-    --box-height: 200px;
+    --text-size: 12px;
+    --box-width: 180px;
+    --box-height: 180px;
     --btn-padding: 10px 10px;
     --btn-radius: 20px;
     --heading-color: #435831;
-    --text-color: #888887;
+    --text-color: #494a4a;
+    --text-family: "Poppins", sans-serif;
+    --sub-heading-size: 18px;
+
+
 
 }
 
@@ -105,4 +108,24 @@ ul>li>a {
 
 .points h2 {
     color: #4c4b49;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: var(--sub-heading-size);
+}
+
+.points p {
+    font-size: var(--text-size);
+}
+
+/*Catalog Section starts From here*/
+.bout {
+    width: var(--box-width);
+    height: var(--box-height);
+    border-top-left-radius: 35px;
+}
+.bout-1{
+    background-image:url(./images/catalog1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

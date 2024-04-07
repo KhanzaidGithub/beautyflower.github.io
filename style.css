@@ -6,14 +6,14 @@
 :root {
     --text-color: rgb(0, 0, 0);
     --text-size: 12px;
-    --box-width: 180px;
-    --box-height: 180px;
+    --box-width: 220px;
+    --box-height: 230px;
     --btn-padding: 10px 10px;
     --btn-radius: 20px;
     --heading-color: #435831;
     --text-color: #494a4a;
     --text-family: "Poppins", sans-serif;
-    --sub-heading-size: 18px;
+    --sub-heading-size: 20px;
 
 
 
@@ -47,7 +47,7 @@ ul>li {
 
 ul>li>a {
     text-decoration: none;
-    color: black;
+    color: #435831;
 }
 
 .logo>img {
@@ -117,15 +117,100 @@ ul>li>a {
     font-size: var(--text-size);
 }
 
+.catl-img {
+    display: flex;
+    align-items: center;
+}
+
+.catl-img img {
+    width: 50px;
+    margin-left: 20px;
+    height: 50px;
+}
+
 /*Catalog Section starts From here*/
+.boutique-section {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
 .bout {
     width: var(--box-width);
     height: var(--box-height);
     border-top-left-radius: 35px;
-}
-.bout-1{
-    background-image:url(./images/catalog1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.bout-1 {
+    background-image: url(./images/catalog1.jpg);
+}
+
+.bout-2 {
+    background-image: url(./images/catalog2.jpg);
+}
+
+.bout-3 {
+    background-image: url(./images/catalog3.jpg);
+}
+
+.bout-4 {
+    background-image: url(./images/catalog4.jpg);
+}
+
+.rate {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+.fas {
+    color: #606a56;
+}
+
+/*Rating Section Ended*/
+
+/*Delivery Section*/
+.delivery-section {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.delivery-img {
+    height: 400px;
+    width: 300px;
+    margin-top: -10px;
+}
+
+.delivery-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.delivery-txt {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.txt {
+    padding: 20px 0px;
+}
+
+.txt>h4 {
+    color: #435831;
+    font-size: 18px;
+}
+
+.txt>p {
+    font-weight: 100;
 }

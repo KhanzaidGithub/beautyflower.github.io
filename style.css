@@ -413,6 +413,8 @@ ul>li>a:hover {
     display: flex;
     justify-content: space-around;
     vertical-align: center;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 .form-div {
@@ -425,7 +427,12 @@ ul>li>a:hover {
     padding: 100px;
     display: flex;
     flex-direction: column;
-    vertical-align: center;
+}
+
+.form>h1 {
+    color: black;
+    font-size: 40px;
+    text-align: center;
 }
 
 .form input {
@@ -459,4 +466,37 @@ ul>li>a:hover {
     background-color: #add07d;
     border: none;
     cursor: pointer;
+}
+
+/*footer Starts Here*/
+footer {
+    background-color: #4b5944;
+    color: #fff;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+.logo {
+    margin: 0px 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 10px 0px;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
 }
